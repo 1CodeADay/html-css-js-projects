@@ -1,0 +1,78 @@
+<form>
+        <!--
+        <input type="text">
+        <label></label>
+        <select></select>
+        <option></option>
+        <textarea></textarea>
+        <button></button>
+        -->
+       
+        <label>Username</label>
+        <br>
+        <input type="text" placeholder="username" required>
+        <br>
+        <label for="">Email</label>
+        <br>
+        <input type="email" placeholder="email" required>
+        <br>
+        <label for="">Password</label>
+        <br>
+        <input type="password" placeholder="password" required>
+        <br>
+        <label for="">Gender</label>
+        <br>
+        <input type="radio" checked> <label for="">Male</label>
+        <input type="radio"> <label for="">Female</label>
+        <br>
+        <label for="">Message</label>
+        <br>
+        <textarea name="" id="">Write your message here</textarea>
+        <br>
+        <br>
+        <input type="file" name="" id="">
+        <br>
+        <br>
+
+        <label for="">Select Model</label>
+        <select name="" id="">
+            <option value="">Iphone</option>
+            <option value="">Samsung</option>
+            <option value="">Nokia</option>
+            <option value="">Bayn</option>
+            <option value="">none</option>
+        </select>
+
+        <input type="submit">
+        <button type="reset">Reset</button>
+
+        <br>
+        <br>
+        <br>
+
+    </form>
+
+    
+    <table border="1">
+        <tr>
+            <th>No.</th>
+            <th>Company</th>
+            <th>Model</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Iphone</td>
+            <td>Iphone 12</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Samsung</td>
+            <td>Azur</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Nokia</td>
+            <td>Galaxy</td>
+        </tr>
+
+    </table>
