@@ -1,26 +1,85 @@
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buttons</title>
-    <link rel="stylesheet" href="buttons.css">
-  </head>
-  <body>
-    <button class="subscribe-button">
-      SUBSCRIBE
-    </button>
-    
-    <button class="join-button">
-      JOIN my English channel
-    </button>
-    
-    <button class="tweet-button">
-      Tweet
-    </button>
-  </body>
-</html>
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+
+<button class="join-button">
+  JOIN
+</button>
+
+<button class="tweet-button">
+  Tweet
+</button>
+
+
+<style>
+  .subscribe-button:hover {
+    opacity: 0.7;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.4;
+  }
+
+  .subscribe-button {
+    background-color: rgb(200,0,0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(45, 96, 223);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.4;
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(45, 96, 223);
+    border-style: solid;
+    border-radius: 2px;
+    color: rgb(45, 96, 223);
+    height: 36px;
+    width: 62px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s,
+      color 0.15s;
+
+
+  }
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    <!-- this property takes four values: horizontal position, vertical position, the blur and the color. -->
+
+  }
+
+
+  .tweet-button {
+    background-color: rgb(0, 155, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-radius: 18px; 
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
 
 
 
+    <!-- the best technique is to set the radius to half of the smaller number between the height and the width properties. -->
+
+  }
+
+</style>
